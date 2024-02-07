@@ -20,6 +20,13 @@ html {
   padding: 0 8px;
 }
 
+.instruct-column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
@@ -59,12 +66,23 @@ html {
   width: 100%;
 }
 
+.description {
+  margin: auto;
+  width: 75%;
+  text-align: justify;
+}
+
 .button:hover {
   background-color: #555;
 }
 
 @media screen and (max-width: 650px) {
   .column {
+    width: 100%;
+    display: block;
+  }
+
+  .instruct-column {
     width: 100%;
     display: block;
   }
